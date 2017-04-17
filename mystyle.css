@@ -1,0 +1,46 @@
+#container {
+    margin: auto;
+    width: 600px;
+}
+#startDate {
+    border-radius: 50%;
+    background-color: #D04E33;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #EEEEEE;
+    width: 28px;
+    height: 28px;
+    float: left;
+    z-index: 5;
+}
+
+#endDate {
+    border-radius: 50%;
+    background-color: #D04E33;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #EEEEEE;
+    width: 28px;
+    height: 28px;
+    float: right;
+    z-index: 5;
+
+}
+
+#dateRange {
+    border-radius: 16px;
+    background-color: #EEEEEE;
+    height: 32px;
+    width: 512px;
+}
+
+#selectedRange {
+    border-radius: 16px;
+    background-color: #D04E33;
+    height: 32px;
+    width: 100px;
+}
+
+body {
+    background-color: #1C2021;
+}
